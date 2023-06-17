@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+ 
+}
+*{
+    margin: 0;
+}
+.logo{
+    height: 40px;
+    width: 50px;
+}
+
+.bannerDiv{
+    padding-left: 10px;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid red;
+    background-color: rgb(153, 175, 238);
+    /* height: 1vh;
+    background-image: url(https://i.ibb.co/HNvHSyV/image-header.jpg);
+    background-position: center bottom;
+    background-size: cover; */
+}
+/* nav{
+    position: fixed;
+    top: 0;
+} */
+.headerDiv{
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    
+}
+.logoDiv button{
+    border: none;
+    
+}
+.navigationDiv{
+    /* background-color: burlywood; */
+    padding: 10px;
+    height: fit-content;
+
+    
+
+}
+div .navigationDiv ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: bold;
+
+}
+div .navigationDiv ul li a{
+    
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 1ms ease-in-out;
+    
+}
+div .navigationDiv ul li a:hover{
+    color: white;
+    text-decoration: underline darkblue;
+}
+
+.buttonDiv{
+    display: flex;
+    /* background-color: goldenrod; */
+    justify-content: center;
+    
+}
+.buttonDiv button{
+ padding: 4px;
+ border-radius: 7px;
+ transition: 2ms linear;
+ border:2px solid salmon;
+ text-transform: capitalize;
+}
+.buttonDiv button:hover{
+    background-color: burlywood;
+    color: white;
+    cursor: pointer;
+    border:2px solid goldenrod;
+    
+}
+.bannerDiv{
+    border-bottom: 1px solid red;
+}
+/* .sections{
+    display: grid;
+    grid-gap: 0;
+} */
+.discripTion{
+    position: relative;
+  
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 70%;
+    color: white;
+}
+.sections{
+    position: absolute;
+    top: 32vh;
+}
+.section1{
+    display: flex;
+    
+    flex-direction: row;
+    /* flex: 2 1; */
+}
+.imgInfo{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+   width: 50%;
+   align-items: start;
+   justify-content: center;
+   background-color: brown;
+   padding:0px 20px 0px 20px;
+}
+.imageDiv{
+    /* height: 100%; */
+    width: 100%;
+    margin: 0px;
+}
+.imageDiv img{
+    height: 70vh;
+    width: 100%;
+}
